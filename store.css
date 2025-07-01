@@ -25,6 +25,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .top-of-page {
+    flex-direction: column;
+  }
+}
+
 body {
  margin: 0;
  padding: 0;

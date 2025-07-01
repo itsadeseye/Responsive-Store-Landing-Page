@@ -36,12 +36,6 @@ body {
  padding: 0;
  box-sizing: border-box;
 }
-/* 
-.logo {
-  height: 140px;
-  width: 140px;
-  border-radius: 50px;
-} */
 
 .initials {
   margin-right: 3rem;
@@ -75,7 +69,6 @@ nav ul li a {
 .text-header {
   margin-top: 40px;
   flex: 1;
-  /* text-align: center; */
   min-width: 250px;
 }
 
@@ -93,16 +86,6 @@ nav ul li a {
  z-index: 1;
  min-width: 200px;
  object-fit: contain; 
-/* 
- width: 280px;
- height: auto;
- object-fit: cover;
- display: block;
- margin-top: 130px;
- margin-bottom: auto;
- margin-right: 70px;
- border-radius: 100%;
- align-items: center; */
 }
 
 
@@ -116,11 +99,7 @@ nav ul li a {
   padding: 60px 40px;
   flex-wrap: wrap;
 }
-/* 
-.image-wrapper {
-  display: flex;
-  align-items: flex-start;
-} */
+
 
 h4 {
   color: #3E3E3E;
@@ -149,86 +128,6 @@ button {
 button:hover {
   color: brown;
 }
-
-/* shirt */
- /* #grid {
-  background-color: #EDE8E2;
-  display: grid;
-  padding: 20px;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  grid-template-columns: 200px 200px auto;
-
-} 
-
-#grid > div {
-  background-color: #F7F5F2;
-  padding: 20px;
-  font-size: 20px;
-} 
-
- .shirt {
-  height: 300px;
-} 
-
-/* .shirt-only
-.trousers-only {
-  border: 1px solid black;
-  margin-right: 1200px;
-  padding-top: 10px;
-  margin-left: 10px;
-}
-
-.shirt-button
-.trousers-btn {
-  margin-left: 50px;
-  margin-bottom: 10px;
-} */
-/* 
-.trousers {
-  height: 300px;
-}
-
-
-.tank {
-  height: 300px;
-}
-
-.blazer {
-  height: 300px;
-}
-
-.skirt {
-  height: 300px;
-}
-
-.tote {
-  height: 300px;
-}
-
-.blouse {
-  height: 300px;
-}
-
-.mididress {
-  height: 300px;
-}
-
-.wrapskirt {
-  height: 300px;
-}
-
-.cardigan {
-  height: 300px;
-}
-
-.bag {
-  height: 300px;
-}
-
-.cami {
-  height: 300px;
-} */ 
 
 .prod-image{
   width: 100%;
@@ -268,10 +167,6 @@ button:hover {
   transition: transform 0.3s ease;
   box-sizing: border-box;
 }
-
-/* .product-card:hover {
-  transform: translateY(-5px):
-}  */
 
 .product-card h5 {
   font-size: 1.3rem;
